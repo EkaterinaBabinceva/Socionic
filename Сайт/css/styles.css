@@ -1,0 +1,148 @@
+/*ihban*/
+@font-face {
+  font-family: 'FoglihtenNo06'; 
+ src: 
+      local("FoglihtenNo06"),
+     url(https://fontstorage.com/ru/font/gluk/fog6#font-details.OTF) format('otf');
+      font-weight: normal;
+    font-style: normal;
+    
+}
+@font-face {
+  font-family: 'dymaxion-scriptC'; 
+ src: 
+      local("dymaxion-scriptC"),
+     url(https://fontstorage.com/ru/font/alexandra-gophmann/dymaxion-scripts.ttf) format('ttf');
+      font-weight: normal;
+    font-style: normal;
+    
+}
+/*Сетка*/
+body{
+    background-color: #1a1a1a;
+    font-family: FoglihtenNo06;
+}
+#wrapper{
+    width: 100%;
+    height: auto;
+    background-color: #1a1a1a;
+}
+#header{
+    width: 100%;
+    height: auto;
+}
+#header img{
+   margin-top: 150px;
+    height: auto;
+}
+#nav{
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    background-color: #F6AFCF;
+    clear: both;
+    font-size: 25px;
+    padding: 0px;
+    top: 0px;
+}
+#nav ul{
+    width: 100px;
+    height: auto;
+    display: inline;
+}
+#nav li{ 
+    display: inline; 
+}
+#nav img{
+     width: 80px;
+    height: auto;
+}
+#content{
+    width: 100%;
+    height: auto;
+    background-color: #1a1a1a;
+}
+
+#main {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.table_pink {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  background-color: #F6AFCF; 
+}
+.big_card{
+    width: 100%;
+  text-align: center;
+    background-color: #1a1a1a;
+;
+}
+#footer {
+    width: 100%;
+    height: auto;
+    background-color: #F6AFCF;
+    clear: both; 
+    font-size: 15px;
+}
+#map{
+    width: 100%;
+    height: auto;
+    clear: both;
+    text-align: center;
+}
+#map img{
+    width: 100px; 
+    height:100%;
+}
+h1 {
+  text-align: center;
+  color: #F6AFCF;
+    font-size: 30px
+}
+h2 {
+  text-align: center;
+   background-color: #F6AFCF;
+    font-size: 30px;
+}
+h3 {
+  text-align: center;
+  color: #F6AFCF;
+      font-size: 30px;
+}
+h4
+{text-align: center;}
+
+b{
+    font-size: 35px;
+    color: #FF1493;
+}
+i{
+    font-size: 30px;
+}
+
+/*карусели*/
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+ 
+.carousel-inner {
+  display: flex;
+  width: 300%;
+  transition: transform 0.5s;
+}
+ 
+.carousel-item {
+  flex: 1;
+  text-align: center;
+}
+ 
+.carousel-item img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
